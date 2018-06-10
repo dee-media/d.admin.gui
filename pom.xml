@@ -11,6 +11,15 @@
     <name>DeeCMS Admin GUI</name>
     <packaging>bundle</packaging>
 
+    <repositories>
+        <repository>
+            <name>sonatype</name>
+            <id>sonaptype</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </repository>
+    </repositories>
+
+
     <build>
         <resources>
             <resource>
